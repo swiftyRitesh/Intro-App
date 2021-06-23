@@ -11,9 +11,9 @@ struct Attendence: View {
     var body: some View {
         VStack {
             Text("Go Do Your Attendence \n  Form Ah")
-                .font(.custom("idk", size: 60))
-            Link("Over here", destination: URL(string: "https://www.youtube.com/watch?v=dQw4w9WgXcQ")!)
-                .font(.custom("idk also", size: 60))
+                .font(.custom("idk", size: 50))
+            Link("Over here", destination: URL(string: "shorturl.at/euRW7")!)
+                .font(.custom("idk also", size: 50))
                 .accentColor(.blue)
             
         }
